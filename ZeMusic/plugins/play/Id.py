@@ -1,12 +1,12 @@
-from telegram import Update, ChatMember
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from ZeMusic import Update, ChatMember
+from ZeMusic.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 @app.on_message(filters.regex(r"^(حقي الايدي)$"))
 async def BotMusic(client: Client, message: Message):
 
 
-from telegram import Update, ChatMember
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
+from ZeMusic import Update, ChatMember
+from ZeMusic.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 user_messages_count = {}
 
