@@ -9,24 +9,6 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from ZeMusic import app
 from ZeMusic import Mody
 from ZeMusic.utils.decorators.admins import AdminActual
-from ZeMusic import app
-import config
-from config import BANNED_USERS
-from ZeMusic import Telegram, YouTube, app
-from ZeMusic.misc import SUDOERS
-from ZeMusic.plugins.play.playlist import del_plist_msg
-from ZeMusic.plugins.sudo.sudoers import sudoers_list
-from ZeMusic.utils.database import (add_served_chat,
-                                       add_served_user,
-                                       blacklisted_chats,
-                                       get_assistant, get_lang,
-                                       get_userss, is_on_off,
-                                       is_served_private_chat)
-from ZeMusic.utils.decorators.language import LanguageStart
-from ZeMusic.utils.inline import (help_pannel, private_panel,
-                                     start_pannel)
-
-from ZeMusic import check_client
 
 
 @app.on_callback_query(filters.regex("ddd"))
