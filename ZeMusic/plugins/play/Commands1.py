@@ -9,8 +9,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from ZeMusic import app
 from ZeMusic import Mody
 from ZeMusic.utils.decorators.admins import AdminActual
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
-from YukkiMusic import app
+from ZeMusic import app
 import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
