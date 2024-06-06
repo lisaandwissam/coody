@@ -12,7 +12,6 @@ from ZeMusic.utils.decorators.admins import AdminActual
 from ZeMusic import app
 import config
 from config import BANNED_USERS
-from strings import get_command, get_string
 from ZeMusic import Telegram, YouTube, app
 from ZeMusic.misc import SUDOERS
 from ZeMusic.plugins.play.playlist import del_plist_msg
